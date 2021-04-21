@@ -64,7 +64,7 @@ img {
     margin: auto;
     margin-top: 3.75vh;
     margin-bottom: 3.75vh;
-    
+
 }
 
 .productosContenedor {
@@ -121,27 +121,27 @@ img {
         color: white;
         width: 57.78vw;
     }
-    
+
 }
 
 
- 
+
 
 .seccionCondiciones {
     height: 52.5vh;
     padding-top: 3.75vh;
     padding-left: 9.44vw;
     padding-right: 5vw;
-   
+
     .condicionPedido {
-        margin-bottom: 3.75vh; 
+        margin-bottom: 3.75vh;
         height: 7.5vh;
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
                             "icono titulo"
                             "icono descripcion";
-        grid-template-columns: 18.33vw 67.23vw;    
-        
+        grid-template-columns: 18.33vw 67.23vw;
+
         .icono {
             grid-area: icono;
             height: 36px/$alto*100vh;
@@ -153,13 +153,13 @@ img {
                 width: auto;
             }
         }
-        
+
         .titulo {
             grid-area: titulo;
         }
-        
+
         .descripcion {
-            grid-area: descripcion;   
+            grid-area: descripcion;
         }
     }
 }
@@ -179,8 +179,8 @@ img {
     h3{
         text-align: right;
     }
-  
-  
+
+
 }
 
 footer{
@@ -194,7 +194,7 @@ footer{
     position: relative;
     display: flex;
     flex-direction: column;
-    
+
     align-items: center;
     h1{
         color:white;
@@ -203,16 +203,16 @@ footer{
         margin-top:40px/$alto*100vh;
         margin-bottom:58px/$alto*100vh;
         display:flex;
-        
+
         input{
             margin:0;
             border:0px;
         }
         .inputNewsletter{
-            width:162px/$ancho*100vw; 
+            width:162px/$ancho*100vw;
             height: 36px/$alto*100vh;
         }
-        
+
         .botonNewsletter{
             background-color: $color-secundario;
             color:white;
@@ -227,11 +227,11 @@ footer{
         bottom: 54px/$alto*100vh;
         height: 35px/$alto*100vh;
         width: 180px/$ancho*100vw;
-        
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        
+
         img{
             // width: 40px/$ancho*100vw;
             height: 100%;
@@ -239,6 +239,6 @@ footer{
             object-fit: scale-down;
         }
     }
-    
+
 
 }
